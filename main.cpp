@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
                         command:
 
                         reply = iface.call("Invoke", cin.readLine());
-                        cout << reply.value() << endl;
+                        cout << "\033[0;32m" + reply.value() + "\033[0;0m" << endl;
 
                         goto command;
                     }
