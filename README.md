@@ -11,4 +11,7 @@ As an result the code quality is quite low. Even one "goto" command was used. ;)
 
 I'm looking forward to make this better in the future.
 
+## API reference ##
+Find the Skype Desktop API reference [here](http://dev.skype.com/desktop-api-reference).
+
 
