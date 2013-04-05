@@ -45,6 +45,7 @@ int main(int argc, char *argv[])
                             cout << "\033[0;32m" + reply.value() + "\033[0;0m" << endl;
 
                         }
+                    }
                 }
                 else{
                     cout << "Error: Connection rejected" << endl;
