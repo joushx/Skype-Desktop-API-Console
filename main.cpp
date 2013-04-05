@@ -39,12 +39,12 @@ int main(int argc, char *argv[])
 
                         cout << "Enter command(s):" << endl;
 
-                        command:
+                        while(true){
 
-                        reply = iface.call("Invoke", cin.readLine());
-                        cout << "\033[0;32m" + reply.value() + "\033[0;0m" << endl;
+                            reply = iface.call("Invoke", cin.readLine());
+                            cout << "\033[0;32m" + reply.value() + "\033[0;0m" << endl;
 
-                        goto command;
+                        }
                     }
                 }
                 else{
