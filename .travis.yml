@@ -3,5 +3,5 @@ install:
 
 script:
   - qmake -project
-  - qmake hello.pro
+  - qmake SkypeAPIConsole.pro
   - make
