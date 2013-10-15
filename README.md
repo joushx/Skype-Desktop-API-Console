@@ -1,6 +1,10 @@
 Skype-Desktop-API-Console
 =========================
 
+##Warning!##
+
+Skype is going to quit the support of Skype Desktop API in December of 2013! 
+
 A console application for testing the skype desktop api.
 
 ![](https://raw.github.com/joushx/Skype-Desktop-API-Console/master/screenshot.png)
